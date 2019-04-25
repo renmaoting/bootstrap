@@ -1,0 +1,24 @@
+{
+  "name": "myfullstack",
+  "version": "1.0.0",
+  "description": "test full stack ",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renmaoting/myFullStack.git"
+  },
+  "author": "Maoting",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renmaoting/myFullStack/issues"
+  },
+  "homepage": "https://github.com/renmaoting/myFullStack#readme",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  }
+}
