@@ -1,7 +1,7 @@
 {
-  "name": "myfullstack",
+  "name": "confusion",
   "version": "1.0.0",
-  "description": "test full stack ",
+  "description": "This is a website for Ristorante Con Fusion",
   "main": "index.html",
   "scripts": {
     "start": "npm run lite",
@@ -16,9 +16,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/renmaoting/myFullStack/issues"
-  },
-  "homepage": "https://github.com/renmaoting/myFullStack#readme",
-  "devDependencies": {
-    "lite-server": "^2.4.0"
   }
 }
