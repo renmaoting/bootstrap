@@ -64,3 +64,5 @@ Install bootstrap and node.js with npm:
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     ```
 
+Install less: "npm install -g less@2.7.2" 
+    to convert less codes into css codes, you can run "lessc style.less style.css"
