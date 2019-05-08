@@ -66,3 +66,6 @@ Install bootstrap and node.js with npm:
 
 Install less: "npm install -g less@2.7.2" 
     to convert less codes into css codes, you can run "lessc style.less style.css"
+
+Install Sass: "npm install --save-dev node-sass@4.7.2"
+    to convert sass codes into css codes, you need to add " "scss": "node-sass -o css/ css/" " into you package.json script field and run "npm run scss"
