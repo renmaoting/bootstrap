@@ -74,3 +74,18 @@ Deployment and Automation:
     install onChange: npm install --save-dev onchange@3.3.0 parallelshell@3.0.2
     if parallesshell doesn't work for this issue: The "options.cwd" property must be of type string. Received type function
     paste this to node_module/parallelshell/index.js https://raw.githubusercontent.com/darkguy2008/parallelshell/master/index.js
+
+    install rimraf: npm install --save-dev rimraf@2.6.2
+
+    install copyfiles: npm -g install copyfiles@2.0.0
+
+    install imagemin: npm install -g imagemin-cli@3.0.0 --unsafe-perm=true --allow-root
+
+    install grunt: 
+        1. npm install -g grunt-cli@1.2.0
+        2. npm install grunt@1.0.2 --save-dev
+        3. npm install grunt-sass@2.1.0 --save-dev
+        4. npm install time-grunt@1.4.0 --save-dev
+        5. npm install jit-grunt@0.10.0 --save-dev
+        6. npm install grunt-contrib-watch@1.0.0 --save-dev
+        7. npm install grunt-browser-sync@2.2.0 --save-dev
