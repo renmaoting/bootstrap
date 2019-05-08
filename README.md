@@ -69,3 +69,8 @@ Install less: "npm install -g less@2.7.2"
 
 Install Sass: "npm install --save-dev node-sass@4.7.2"
     to convert sass codes into css codes, you need to add " "scss": "node-sass -o css/ css/" " into you package.json script field and run "npm run scss"
+
+Deployment and Automation:
+    install onChange: npm install --save-dev onchange@3.3.0 parallelshell@3.0.2
+    if parallesshell doesn't work for this issue: The "options.cwd" property must be of type string. Received type function
+    paste this to node_module/parallelshell/index.js https://raw.githubusercontent.com/darkguy2008/parallelshell/master/index.js
